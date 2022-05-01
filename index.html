@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="full-img" id="fullImgBox">
+       <img src="./img/img.1.jpeg" id="fullImg">
+       <span onclick="closeFullImg()">X</span>
+    </div>
+    <div class="img-container">
+       <div class="container">
+           <img src="./img/img.1.jpeg" onclick="openFullImg(this.src)">
+           <div class="top-left">Summer House</div>
+        </div>
+       <div class="container">
+           <img src="./img/img.2.jpeg" onclick="openFullImg(this.src)">
+           <div class="top-left">Brick House</div>
+       </div>
+       <div class="container">
+           <img src="./img/img.3.jpeg" onclick="openFullImg(this.src)">
+           <div class="top-left">Renovated House</div>
+        </div>
+       <div class="container">
+           <img src="./img/img.4.jpeg" onclick="openFullImg(this.src)">
+           <div class="top-left">Barn House</div>
+        </div>
+       <div class="container">
+           <img src="./img/img.5.jpeg" onclick="openFullImg(this.src)">
+           <div class="top-left">Summer House</div>
+        </div>
+       <div class="container">
+           <img src="./img/img.6.jpeg" onclick="openFullImg(this.src)">
+           <div class="top-left">Brick House</div>
+        </div>
+       <div class="container">
+           <img src="./img/img.7.jpeg" onclick="openFullImg(this.src)">
+           <div class="top-left">Renovated House</div>
+        </div>
+       <div class="container">
+           <img src="./img/img.8.jpeg" onclick="openFullImg(this.src)">
+           <div class="top-left">Barn House</div>
+        </div>
+    </div>
+
+    <script src="./gallery.js"></script>
+    
+</body>
+</html>
